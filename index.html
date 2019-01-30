@@ -1,7 +1,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="phone.css">
-    <title>W1 HTML GUI Dym</title>
+    <title>W1 Dym</title>
   </head>
   <body>
     <div class="firstDiv" id="tab_bar"></div>
@@ -9,9 +9,73 @@
       <button class="Button" id="Contacts">Contacts</button>
       <button class="Button" id="Add_Contact">Add Contact</button>
     <div class="secondDiv" id="content"></div>
-      <div class="secondDiv1" id="content_dialer">Placeholder 1</div>
-      <div class="secondDiv2" id="content_contacts">Placeholder 2</div>
-      <div class="secondDiv3" id="content_add">Placeholder 3</div>
+      <div class="secondDiv1" id="content_dialer">
+        <header>You may now place your call</header>
+        <input class="input" id="input"></input>
+        <table>
+          <tr>
+            <td><button class="dialer_page" id="One">1</button></td>
+            <td><button class="dialer_page" id="Two">2</button></td>
+            <td><button class="dialer_page" id="Three">3</button></td>
+          </tr>
+          <tr>
+            <td><button class="dialer_page" id="Four">4</button></td>
+            <td><button class="dialer_page" id="Five">5</button></td>
+            <td><button class="dialer_page" id="Six">6</button></td>
+          </tr>
+          <tr>
+            <td><button class="dialer_page" id="Seven">7</button></td>
+            <td><button class="dialer_page" id="Eight">8</button></td>
+            <td><button class="dialer_page" id="Nine">9</button></td>
+          </tr>
+          <tr>
+            <td><button class="dialer_page" id="Asterisk">*</button></td>
+            <td><button class="dialer_page" id="Zero">0</button></td>
+            <td><button class="dialer_page" id="Hashtag">#</button></td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td><button class="dialer_page" id="Dial">Dial</button></td>
+            <td><button class="dialer_page" id="Clear">Clear</button></td>
+          </tr>
+        </table>
+      </div>
+      <div class="secondDiv2" id="content_contacts">
+        <header>Contact List</header>
+        <table>
+          <tr>
+            <td><button class="contact_list" id="Contact1">Poots McGoot</button></td>
+            <td><button class="contact_list" id="Contact2">Jaxon Flaxon-Waxon</button></td>
+            <td><button class="contact_list" id="Contact3">Lemony Snicket</button></td>
+          </tr>
+          <tr>
+            <td><button class="contact_list" id="Contact4">Namey McNameface</button></td>
+            <td><button class="contact_list" id="Contact5">You Know ;)</button></td>
+            <td><button class="contact_list" id="Contact6">The Final Pam</button></td>
+          </tr>
+        </table>
+      </div>
+      <div class="secondDiv3" id="content_add">
+        <header>Add Contact</header>
+        <table>
+          <tr>
+            <td><label id="nameLabel">Name</label><input class=input id="nameInput"></input></td>
+          </tr>
+          <tr>
+            <td><label id="phoneNumber">Phone Number</label><input class=input id="phoneInput"></input></td>
+          </tr>
+          <tr>
+            <td><label id="emailAddress">Email</label><input class=input id="emailInput"></input></td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td><button class="add_page" id="Add">Add</button></td>
+            <td><button class="add_page" id="Clear_Contact">Clear Contact</button></td>
+          </tr>
+        </table>
+      </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="phone.js"></script>
   </body>

@@ -1,6 +1,35 @@
-#Dialer { width: 60px; height: 30px; background: blue; color: white; margin: 10px;
-font-size: 16px; font-weight: bold; padding: inherit; border-color: 000066}
-#Contacts { width: 80px; height: 30px; background: blue; color: white; margin: 10px;
-font-size: 16px; font-weight: bold; padding: inherit; border-color: 000066}
-#Add_Contact { width: 80px; height: 45px; background: blue; color: white; margin-left: 10px;
-font-size: 16px; font-weight: bold; padding: inherit; border-color: 000066}
+#Dialer { width: 60px; height: 30px; background: CadetBlue; color: white; margin: 10px;
+font-size: 16px; font-weight: bold; padding: 5px; border-color: DarkCyan}
+#Contacts { width: 85px; height: 30px; background: CadetBlue; color: white; margin: 10px;
+font-size: 16px; font-weight: bold; padding: 5px; border-color: DarkCyan}
+#Add_Contact { width: 110px; height: 30px; background: CadetBlue; color: white; margin-left: 10px;
+font-size: 16px; font-weight: bold; padding: inherit; border-color: DarkCyan}
+#input { width: 180px; height: 30px; margin: 5px; padding: 5px}
+#One { width: 45px; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Two { width: 45px; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Three { width: 45px; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Four { width: 45px; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Five { width: 45px; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Six { width: 45px; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Seven { width: 45px; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Eight { width: 45px; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Nine { width: 45px; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Asterisk { width: 45px; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Zero { width: 45px; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Hashtag { width: 45px; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Dial { width: 74px; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Clear { width: 74px; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
