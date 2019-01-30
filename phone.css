@@ -33,3 +33,25 @@ font-size: 14px; padding: 5px; border-color: DarkCyan}
 font-size: 14px; padding: 5px; border-color: DarkCyan}
 #Clear { width: 74px; height: 30px; background: AliceBlue; color: black; margin: 5px;
 font-size: 14px; padding: 5px; border-color: DarkCyan}
+#nameLabel { font: Arial; font-family: sans-serif; margin: 5px}
+#phoneNumber { font: Arial; font-family: sans-serif;margin: 5px}
+#emailAddress { font: Arial; font-family: sans-serif;margin: 5px}
+#Add_Contact_Head { font: Arial; font-family: sans-serif; font-weight: bold; margin: 5px}
+#Contact_List_Head { font: Arial; font-family: sans-serif; font-weight: bold; margin: 5px}
+#Dial_Head { font: Arial; font-family: sans-serif; font-weight: bold; margin: 5px}
+#Add { width: 70px; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Clear_Contact { width: 110px; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Contact1 { width: auto; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Contact2 { width: auto; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Contact3 { width: auto; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Contact4 { width: auto; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Contact5 { width: auto; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}
+#Contact6 { width: auto; height: 30px; background: AliceBlue; color: black; margin: 5px;
+font-size: 14px; padding: 5px; border-color: DarkCyan}

@@ -18,4 +18,3 @@ $("#Add_Contact").click(function() {
   $("#content_dialer").hide();
   $("#content_contacts").hide();
 });
-//get this filled out with all buttons and text boxes
