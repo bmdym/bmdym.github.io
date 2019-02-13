@@ -1,84 +1,96 @@
 <html>
   <head>
     <link rel="stylesheet" href="phone.css">
-    <title>W1 Dym</title>
+    <title>W3 Dym</title>
   </head>
   <body>
-    <div class="firstDiv" id="tab_bar"></div>
-      <button class="Button" id="Dialer">Dialer</button>
-      <button class="Button" id="Contacts">Contacts</button>
-      <button class="Button" id="Add_Contact">Add Contact</button>
+    <h1>Phone Dialer Page Menu</h1>
+    <div class="firstDiv" id="tab_bar" role="navigation"></div>
+      <button class="Button" id="Dialer" tabindex="1" accesskey="d">Dialer</button>
+      <button class="Button" id="Contacts" tabindex="2" accesskey="c">Contacts</button>
+      <button class="Button" id="Add_Contact" tabindex="3" accesskey="a">Add Contact</button>
+      <button class="Button" id="Help" tabindex="4" accesskey="h">Help</button>
     <div class="secondDiv" id="content"></div>
-      <div class="secondDiv1" id="content_dialer">
-        <Label id=#Dial_Head>You may now place your call</label>
-        <table>
-          <tr>
-            <td><input class="input" id="input"></input></td>
-          </tr>
-        </table>
-        <table>
-          <tr>
-            <td><button class="dialer_page" id="One">1</button></td>
-            <td><button class="dialer_page" id="Two">2</button></td>
-            <td><button class="dialer_page" id="Three">3</button></td>
-          </tr>
-          <tr>
-            <td><button class="dialer_page" id="Four">4</button></td>
-            <td><button class="dialer_page" id="Five">5</button></td>
-            <td><button class="dialer_page" id="Six">6</button></td>
-          </tr>
-          <tr>
-            <td><button class="dialer_page" id="Seven">7</button></td>
-            <td><button class="dialer_page" id="Eight">8</button></td>
-            <td><button class="dialer_page" id="Nine">9</button></td>
-          </tr>
-          <tr>
-            <td><button class="dialer_page" id="Asterisk">*</button></td>
-            <td><button class="dialer_page" id="Zero">0</button></td>
-            <td><button class="dialer_page" id="Hashtag">#</button></td>
-          </tr>
-        </table>
-        <table>
-          <tr>
-            <td><button class="dialer_page" id="Dial">Dial</button></td>
-            <td><button class="dialer_page" id="Clear">Clear</button></td>
-          </tr>
-        </table>
+      <div class="secondDiv1" id="content_dialer" role="main" aria-labelledby="main1" aria-live=polite>
+        <h2 id="main1">Phone dialer buttons to place a call</h2>
+        <div>
+          <input class="input" id="input" tabindex="5"></input>
+        </div>
+        <div>
+          <button class="dialer_page" id="dialer_button" tabindex="6" accesskey="1">1</button>
+          <button class="dialer_page" id="dialer_button" tabindex="7" accesskey="2">2</button>
+          <button class="dialer_page" id="dialer_button" tabindex="8" accesskey="3">3</button>
+        </div>
+        <div>
+          <button class="dialer_page" id="dialer_button" tabindex="9" accesskey="4">4</button>
+          <button class="dialer_page" id="dialer_button" tabindex="10" accesskey="5">5</button>
+          <button class="dialer_page" id="dialer_button" tabindex="11" accesskey="6">6</button>
+        </div>
+        <div>
+          <button class="dialer_page" id="dialer_button" tabindex="12" accesskey="7">7</button>
+          <button class="dialer_page" id="dialer_button" tabindex="13" accesskey="8">8</button>
+          <button class="dialer_page" id="dialer_button" tabindex="14" accesskey="9">9</button>
+        </div>
+        <div>
+          <button class="dialer_page" id="Asterisk" tabindex="15" accesskey=".">*</button>
+          <button class="dialer_page" id="Zero" tabindex="16" accesskey="0">0</button>
+          <button class="dialer_page" id="Hashtag" tabindex="17" accesskey=",">#</button>
+        </div>
+        <div>
+          <button class="dialer_page" id="Dial" tabindex="18" accesskey="q">Dial</button>
+          <button class="dialer_page" id="Clear" tabindex="19" accesskey="w">Clear</button>
+        </div>
+        <div>
+          <img tabindex="20" src="phone-clip-art.png" alt="Black Telephone Logo" />
+          </div>
       </div>
-      <div class="secondDiv2" id="content_contacts">
-        <label id="Contact_List_Head">Contact List</label>
+      <div class="secondDiv2" id="content_contacts" role="main" aria-labelledby="main2" aria-live="polite">
+        <h3 id="main2">Select Contacts to Dial</h3>
         <table>
+          <caption>Contact List</caption>
           <tr>
-            <td><button class="contact_list" id="Contact1">Poots McGoot</button></td>
-            <td><button class="contact_list" id="Contact2">Jaxon Flaxon-Waxon</button></td>
-            <td><button class="contact_list" id="Contact3">Lemony Snicket</button></td>
+            <th scope="col">Contact</th>
           </tr>
           <tr>
-            <td><button class="contact_list" id="Contact4">Namey McNameface</button></td>
-            <td><button class="contact_list" id="Contact5">You Know ;)</button></td>
-            <td><button class="contact_list" id="Contact6">The Final Pam</button></td>
+            <th scope="row"><button class="contact_list" id="Contact1" tabindex="5">Poots McGoots</button></th>
           </tr>
-        </table>
-      </div>
-      <div class="secondDiv3" id="content_add">
+          <tr>
+            <th scope="row"><button class="contact_list" id="Contact2" tabindex="6">Jaxon Flaxon-Waxon</button></th>
+          </tr>
+          <tr>
+            <th scope="row"><button class="contact_list" id="Contact3" tabindex="7">Lemony Snicket</button></th>
+          </tr>
+          <tr>
+            <th scope="row"><button class="contact_list" id="Contact4" tabindex="8">Namey McNameface</button></th>
+          </tr>
+          <tr>
+            <th scope="row"><button class="contact_list" id="Contact5" tabindex="9">You Know ;)</button></th>
+          </tr>
+          <tr>
+            <th scope="row"><button class="contact_list" id="Contact6" tabindex="10">The Final Pam</button></th>
+          </tr>
+      </table>
+    </div>
+      <div class="secondDiv3" id="content_add" role="main" aria-labelledby="main3" aria-live=polite>
+        <h4 id="main3"> Add a Contact to Your Library</h4>
         <label id="Add_Contact_Head">Add Contact</label>
-        <table>
-          <tr>
-            <td><label id="nameLabel">Name</label><input class=input id="nameInput"></input></td>
-          </tr>
-          <tr>
-            <td><label id="phoneNumber">Phone Number</label><input class=input id="phoneInput"></input></td>
-          </tr>
-          <tr>
-            <td><label id="emailAddress">Email</label><input class=input id="emailInput"></input></td>
-          </tr>
-        </table>
-        <table>
-          <tr>
-            <td><button class="add_page" id="Add">Add</button></td>
-            <td><button class="add_page" id="Clear_Contact">Clear Contact</button></td>
-          </tr>
-        </table>
+        <div>
+          <label id="nameLabel">Name</label><input class=input id="nameInput" tabindex="5"></input>
+        </div>
+        <div>
+          <label id="phoneNumber">Phone Number</label><input class=input id="phoneInput" tabindex="6"></input>
+        </div>
+        <div>
+          <label id="emailAddress">Email</label><input class=input id="emailInput" tabindex="7"></input>
+        </div>
+        <div>
+          <button class="add_page" id="Add" tabindex="8">Add</button>
+          <button class="add_page" id="Clear_Contact" tabindex="9">Clear Contact</button>
+        </div>
+      </div>
+      <div class="secondDiv4" id="content_help" role="main" aria-labelledby="main4" aria-live=polite>
+        <h5 id="main4"> Keyboard shortcuts and other features listed below </h5>
+        add the keyboard shortcuts for the love of god, possibly in an accessible table
       </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="phone.js"></script>
