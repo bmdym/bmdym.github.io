@@ -21,3 +21,7 @@ font-size: 14px; padding: 5px; border-color: DarkCyan}
 font-size: 14px; padding: 5px; border-color: DarkCyan}
 .contact_list { width: auto; height: 30px; background: AliceBlue; color: black; margin: 5px;
 font-size: 14px; padding: 5px; border-color: DarkCyan}
+.helpTable { font: Arial; font-family: sans-serif; font-weight: normal; border-color: black ; text-align: center}
+.header { font: Arial; font-family:sans-serif; font-weight: bold; font-size: 14}
+.header1 { font: Arial; font-family: sans-serif; font-weight: normal; font-size: 14}
+.columnContact { font: Arial; font-family: sans-serif; font-weight: normal; font-size: 14}

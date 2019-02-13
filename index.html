@@ -4,7 +4,7 @@
     <title>W3 Dym</title>
   </head>
   <body>
-    <h1>Phone Dialer Page Menu</h1>
+    <h1 class="header">Phone Dialer Page Menu</h1>
     <div class="firstDiv" id="tab_bar" role="navigation"></div>
       <button class="Button" id="Dialer" tabindex="1" accesskey="d">Dialer</button>
       <button class="Button" id="Contacts" tabindex="2" accesskey="c">Contacts</button>
@@ -12,7 +12,7 @@
       <button class="Button" id="Help" tabindex="4" accesskey="h">Help</button>
     <div class="secondDiv" id="content"></div>
       <div class="secondDiv1" id="content_dialer" role="main" aria-labelledby="main1" aria-live=polite>
-        <h2 id="main1">Phone dialer buttons to place a call</h2>
+        <h2 class="header" id="main1">Phone dialer buttons to place a call</h2>
         <div>
           <input class="input" id="input" tabindex="5"></input>
         </div>
@@ -45,34 +45,41 @@
           </div>
       </div>
       <div class="secondDiv2" id="content_contacts" role="main" aria-labelledby="main2" aria-live="polite">
-        <h3 id="main2">Select Contacts to Dial</h3>
+        <h3 class="header" id="main2">Select Contacts to Dial</h3>
         <table>
-          <caption>Contact List</caption>
+          <caption hidden>Contact List</caption>
           <tr>
-            <th scope="col">Contact</th>
+            <th scope="col" class="columnContact">Contact</th>
+            <th scope="col" class="columnContact">Contact Image</th>
           </tr>
           <tr>
             <th scope="row"><button class="contact_list" id="Contact1" tabindex="5">Poots McGoots</button></th>
+            <td class="contactImage" tabindex="6"><img src="contact-icon.png" alt="A flat, black icon of a person's head and torso" /></td>
           </tr>
           <tr>
-            <th scope="row"><button class="contact_list" id="Contact2" tabindex="6">Jaxon Flaxon-Waxon</button></th>
+            <th scope="row"><button class="contact_list" id="Contact2" tabindex="7">Jaxon Flaxon-Waxon</button></th>
+            <td class="contactImage" tabindex="8"><img src="contact-icon.png" alt="A flat, black icon of a person's head and torso" /></td>
           </tr>
           <tr>
-            <th scope="row"><button class="contact_list" id="Contact3" tabindex="7">Lemony Snicket</button></th>
+            <th scope="row"><button class="contact_list" id="Contact3" tabindex="9">Lemony Snicket</button></th>
+            <td tabindex="10" class="contactImage"><img src="contact-icon.png" alt="A flat, black icon of a person's head and torso" /></td>
           </tr>
           <tr>
-            <th scope="row"><button class="contact_list" id="Contact4" tabindex="8">Namey McNameface</button></th>
+            <th scope="row"><button class="contact_list" id="Contact4" tabindex="11">Namey McNameface</button></th>
+            <td class="contactImage" tabindex="12"><img src="contact-icon.png" alt="A flat, black icon of a person's head and torso" /></td>
           </tr>
           <tr>
-            <th scope="row"><button class="contact_list" id="Contact5" tabindex="9">You Know ;)</button></th>
+            <th scope="row"><button class="contact_list" id="Contact5" tabindex="13">You Know ;)</button></th>
+            <td class="contactImage" tabindex="14"><img src="contact-icon.png" alt="A flat, black icon of a person's head and torso" /></td>
           </tr>
           <tr>
-            <th scope="row"><button class="contact_list" id="Contact6" tabindex="10">The Final Pam</button></th>
+            <th scope="row"><button class="contact_list" id="Contact6" tabindex="15">The Final Pam</button></th>
+            <td class="contactImage" tabindex="16"><img src="final-pam.jpg" alt="A woman with shoulder-length black hair in a blue blouse" /></td>
           </tr>
       </table>
     </div>
       <div class="secondDiv3" id="content_add" role="main" aria-labelledby="main3" aria-live=polite>
-        <h4 id="main3"> Add a Contact to Your Library</h4>
+        <h4 class="header" id="main3"> Add a Contact to Your Library</h4>
         <label id="Add_Contact_Head">Add Contact</label>
         <div>
           <label id="nameLabel">Name</label><input class=input id="nameInput" tabindex="5"></input>
@@ -89,8 +96,49 @@
         </div>
       </div>
       <div class="secondDiv4" id="content_help" role="main" aria-labelledby="main4" aria-live=polite>
-        <h5 id="main4"> Keyboard shortcuts and other features listed below </h5>
-        add the keyboard shortcuts for the love of god, possibly in an accessible table
+        <h5 class="header1" id="main4" tabindex="5"> This page can be navigated using keyboard shortcuts. If you are on a PC, activate the keyboard shortcuts by pressing alt + the assigned key. On a mac, press control + command.</h5>
+        <table class="helpTable">
+          <caption id="helpTableCap" tabindex="6">Keyboard Shortcuts</caption>
+          <tr>
+            <th scope="col" tabindex="7">Action</th>
+            <th scope="col" tabindex="8">Shortcut Key</th>
+          </tr>
+          <tr>
+            <th scope="row" tabindex="9">Dial Page</th>
+            <td tabindex="10">d</td>
+          </tr>
+          <tr>
+            <th scope="row" tabindex="11">Contact List Page</th>
+            <td tabindex="12">c</td>
+          </tr>
+          <tr>
+            <th scope="row" tabindex="13">Add Contact Page</th>
+            <td tabindex="14">a</td>
+          </tr>
+          <tr>
+            <th scope="row" tabindex="15">Help Page</th>
+            <td tabindex="16">h</td>
+          </tr>
+          <tr>
+            <th scope="row" tabindex="17">Dialer Numbers</th>
+            <td tabindex="18">Correspond with keypad numbers</td>
+          </tr>
+          <tr>
+            <th scope="row" tabindex="19">Star</th>
+            <td tabindex="20">.</td>
+          </tr>
+          <tr>
+            <th scope="row" tabindex="21">Hashtag</th>
+            <td tabindex="22">,</td>
+          </tr>
+          <tr>
+            <th scope="row" tabindex="23">Dial the Number</th>
+            <td tabindex="24">q</td>
+          </tr>
+          <tr>
+            <th scope="row" tabindex="25">Clear Input</th>
+            <td tabindex="26">w</td>
+          </tr>
       </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="phone.js"></script>
